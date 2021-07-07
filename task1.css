@@ -1,0 +1,33 @@
+.A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.A button {
+    margin-top: 20px;
+}
+
+.randomcolor {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+
+#myclass {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+#myclass :hover {
+    display: block;
+    border: 2px solid black;
+}
